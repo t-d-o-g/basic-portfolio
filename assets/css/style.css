@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+p {
+    font-family: arial, "helvetica neue", helvetica, sans-serif; 
+    color: #777777;
+    padding: 10px 20px;
+}
+
+a {
+    font-family: arial, "helvetica neue", helvetica, sans-serif; 
+    color: #777777;
+    text-decoration: none;
+}
+
+h1 {
+    display: inline-block;
+    font-family: georgia, times, "times new roman", serif;
+    font-size: 25px;
+    padding: 18px;
+}
+
+h2 {
+    font-family: georgia, times, "times new roman", serif;
+    height: 100%;
+}
+
+body {
+    background: lightgray;
+}
+
+hr {
+    background: #cccccc;
+    width: 95%;
+    height: 1px;
+}
+
+section {
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    width: 960px;
+    margin: 20px;
+}
+
+header {
+    background: #ffffff;
+    border: 2px solid #cccccc;
+    height: 60px;
+
+}
+
+footer {
+    background: #666666;
+    height: 50px;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+}
+
+nav {
+    display: inline-block;
+}
+
+img {
+    margin: 10px 20px;
+}
+
+
+
+
+
+
+
+.inline-block {
+    display: inline-block;
+}
+
+.color-teal {
+    color: #4aaaa5;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.base-font {
+    font-family: arial, "helvetica neue", helvetica, sans-serif; 
+    color: #777777;
+}
+
+.float-left {
+    float: left;
+}
+
+.right-menu-border {
+    border-right: 1px solid #cccccc;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+.align-right {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.about-me-name {
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    left: 100px;
+}
+
+.copyright {
+    position: absolute;
+    right: 50%;
+    color: rgba(256, 256, 256, 0.5);
+}
+
+.content {
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.push {
+    height: 50px;
+}
