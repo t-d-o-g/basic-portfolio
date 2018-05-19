@@ -95,12 +95,13 @@ img {
     top: 20px;
 }
 
-.about-me-name {
+.my-name {
     position: absolute;
-    background: #4aaaa5;
-    font-size: 26px;
-    color: #fcfcfc;
+    top: 0;
     left: 100px;
+    background: #4aaaa5;
+    font-size: 28px;
+    color: #fcfcfc;
 }
 
 .copyright {
