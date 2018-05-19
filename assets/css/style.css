@@ -119,3 +119,8 @@ img {
 .push {
     height: 50px;
 }
+
+.portfolio-img {
+    width: 28.888%;
+    height: auto;
+}
