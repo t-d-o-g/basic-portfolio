@@ -34,6 +34,11 @@ hr {
     height: 1px;
 }
 
+label {
+    font-family: arial, "helvetica neue", helvetica, sans-serif; 
+    color: #777777;
+}
+
 section {
     background: #fcfcfc;
     border: 2px solid #dddddd;
@@ -124,4 +129,30 @@ img {
 .portfolio-img {
     width: 28.888%;
     height: auto;
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    height: 30px;
+    margin: 20px;
+    resize: vertical;
+    margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    font-family: arial, "helvetica neue", helvetica, sans-serif; 
+    font-size: 13px;
+    color: #fcfcfc;
+    padding: 12px 20px;
+}
+
+input[type=submit]:hover {
+    background: #45a049;
+    cursor: pointer;
 }
