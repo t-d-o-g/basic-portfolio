@@ -1,5 +1,5 @@
 html, body {
-    background-image: url("/assets/images/wood-light-gray.png");
+    background-image: url("../images/wood-light-gray.png");
     height: 100%;
     margin: 0;
 }
