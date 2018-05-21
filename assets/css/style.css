@@ -127,9 +127,28 @@ img {
     height: 50px;
 }
 
-.portfolio-img {
-    width: 28.888%;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 28.88%);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 44px;
+}
+
+.wrapper img {
+    width: 100%;
     height: auto;
+}
+
+.img-label {
+    position: relative;
+    background: #4aaaa5;
+    color: #fcfcfc;
+    opacity: .8;
+    bottom: 80px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 20px;
+    width: 85.5%;
 }
 
 .contact-form {
